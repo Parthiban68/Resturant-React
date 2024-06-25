@@ -20,7 +20,7 @@ function Navbar() {
                     <li className='cursor-pointer group'>
                         <a href="/#" className='inline-block hover:text-primary text-xl font-semibold'>
                         <div className='flex items-center gap-[2px] py-2'>
-                        DropDown<span><FaCaretDown className='group-hover:rotate-180 duration-300'/></span>
+                        Cateogory<span><FaCaretDown className='group-hover:rotate-180 duration-300'/></span>
                         </div>
                         </a>
                         <div className='absolute z-[9999] hidden group-hover:block w-[200px] bg-white text-black shadow-md rounded-md p-3'>
