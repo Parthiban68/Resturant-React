@@ -1,14 +1,12 @@
 import { useState } from 'react'
-import Navbar from './Components/Navbar/Navbar'
-import Home from './Components/Home/Home'
+import Home from './Components/Home/Home';
 
 function App() {
 
   return (
-  <div className='overflow-x-hidden'>
-    <Navbar/>
-    <Home/>
-  </div>
+    <div className='overflow-x-hidden'>
+      <Home/>
+    </div>
   )
 }
 

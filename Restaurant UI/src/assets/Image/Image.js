@@ -5,6 +5,8 @@ import kiwi from "../png/kiwi.png"
 import leaf from "../png/leaf.png"
 import lemon from "../png/lemon.png"
 import tomato from "../png/tomato.png"
+import Poly from '../polygon.png';
+import wave from '../vector-wave.png';
 
 export {
     hero,
@@ -13,5 +15,7 @@ export {
     kiwi,
     leaf,
     lemon,
-    tomato    
+    tomato,
+    Poly,
+    wave    
 } 
