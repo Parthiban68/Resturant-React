@@ -1,5 +1,5 @@
 import React from 'react'
-import { Poly } from '../../assets/Image/Image'
+import { Poly, wave } from '../../assets/Image/Image'
 import AccoutButton from '../Buttons/AccoutButton'
 
 const BgStyle = {
@@ -15,10 +15,10 @@ const BgStyle = {
 const  AboutUs = () => {
   return (
     <div>
-        <div style={BgStyle} className='py-14'>
+        <div  style={BgStyle} className='py-14'>
             <div className='container min-h-[500px] relative z-10'>
-                <h1 className='pt-20 tracking-wider text-4xl font-semibold text-white text-center'>About Us</h1>
-                <div className='bg-white/80 p-10 my-10'>
+                <h1 data-aos="fade-down" data-aos-delay="300" className='pt-20 tracking-wider text-4xl font-semibold text-white text-center'>About Us</h1>
+                <div data-aos="fade-in" data-aos-delay="700" className='bg-white/80 p-10 my-10'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae mollitia modi praesentium quo aut ut! Sint sapiente deserunt dolore, rerum cumque laboriosam harum, voluptatum ipsum ducimus odio perspiciatis aliquid obcaecati.
                     Ipsa sint tenetur ab corrupti? Vel voluptatum tempora dolores non, repudiandae recusandae officia aut tempore illum eius consequuntur necessitatibus illo facilis porro ducimus doloribus pariatur vitae eaque blanditiis. Inventore, ipsam.
                     Accusantium voluptas consequuntur dolore nobis sit magni officia ratione unde enim. Libero iste neque ut laudantium ullam voluptatem velit blanditiis pariatur tempore tenetur! Harum animi reprehenderit, hic perspiciatis ut eligendi!

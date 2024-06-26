@@ -5,7 +5,7 @@ import AccoutButton from '../Buttons/AccoutButton'
 
 function Navbar() {
   return (
-    <div className='bg-white shadow-md'>
+    <div data-aos="fade-down" data-aos-delay="500" className='bg-white shadow-md'>
         <div className='container flex justify-between py-4 sm:py-3'>
             <div className='font-bold'>
                 Logo

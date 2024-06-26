@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Hero from '../Hero/Hero'
 import { bg } from '../../assets/Image/Image'
 import Banner from '../Banner/Banner'
 import WhyChoose from '../Choose/WhyChoose'
 import AboutUs from '../AboutUs/AboutUs'
 import Navbar from '../Navbar/Navbar'
+import Footer from '../Footer/Footer'
+import Popup from '../Popup/Popup'
 
 
 const BgStyle = {
@@ -17,13 +19,20 @@ const BgStyle = {
 }
 
 const Home = () => {
-    return (
+    const [showPopup, setShowPopup] = useState(false)
+    const handlepop = () =>{
+        setShowPopup(true)
+    }
+     return (
         <div style={BgStyle} className='relative z-[1]'>
             <Navbar/>
             <Hero />
             <Banner/>
             <WhyChoose/>
             <AboutUs/>
+            <Banner/>
+            <Footer/>
+            {/* <Popup showPopup={showPopup} setShowPopup={setShowPopup}/> */}
         </div>
     )
 }

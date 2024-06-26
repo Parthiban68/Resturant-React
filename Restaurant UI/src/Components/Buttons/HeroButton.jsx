@@ -2,7 +2,7 @@ import React from 'react'
 import { FaArrowRight } from "react-icons/fa"
 function HeroButton() {
   return (
-    <div className='flex items-center group'>
+    <div  className='flex items-center group'>
         <button className='bg-primary px-3 py-2 h-[40px] text-white'>
             Choose the food
             </button>

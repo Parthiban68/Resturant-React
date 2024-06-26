@@ -7,7 +7,7 @@ export const link = [
     {
         id:2,
         name:"About",
-        path:"/#"
+        path:"/about"
     },
     {
         id:3,
